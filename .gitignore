@@ -1,18 +1,6 @@
-/Android/EasyVideoRenderLib/bin
-/Android/EasyVideoRenderLib/gen
-/Android/EasyVideoRecorderLib/bin
-/Android/EasyVideoRecorderLib/gen
-/Android/EasyVideoDemo/bin
-/Android/EasyVideoDemo/gen
-/Android/EasyVideoRenderLib/src
-/Android/EasyVideoDemo/.svn
-/Android/EasyVideoRecorderLib/.svn
-/Android/EasyVideoRenderLib/.svn
-=======
-
 IOS/EasyVideoRecorderDemo/EasyVideoRecorderDemo.xcodeproj/xcuserdata/tsinglink.xcuserdatad/xcschemes/EasyVideoRecorderDemo.xcscheme
 
 IOS/EasyVideoRecorderDemo/EasyVideoRecorderDemo.xcodeproj/xcuserdata/tsinglink.xcuserdatad/xcschemes/xcschememanagement.plist
 
 IOS/EasyVideoRecorderDemo/.DS_Store
->>>>>>> 918c0a2beb6bec7f325a2a4ffe389e3b2ae615e6
+
