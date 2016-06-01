@@ -18,12 +18,19 @@ EasyVideoRecorder是EasyDarwin开源团队成员Holo & Carl开发的一款移动
 
 **EasyVideoRecorder SDK库企业及商用需要经过授权(Github Demo中的SDK授权截止日期为：2016年10月1日，届时会重新更新授权Demo版本的授权时间周期)，EasyVideoRecorder SDK支持自定义滤镜、MV、相框**，<a href="http://www.easydss.com/EasyVideoRecorder.html" alt="EasyVideoRecorder 授权说明" target="_blank">授权说明：http://www.easydss.com/EasyVideoRecorder.html</a>；
 
-<img src="http://www.easydarwin.org/skin/easydarwin/images/easyvideorecorder_pai.png" width="500" alt="EasyVideoRecorder断点拍摄" />
-
-<img src="http://www.easydarwin.org/skin/easydarwin/images/easyvideorecorder_lvjing.png" width="500" alt="EasyVideoRecorder 滤镜" />
-
-<img src="http://www.easydarwin.org/skin/easydarwin/images/easyvideorecorder_mv.png" width="500" alt="EasyVideoRecorder MV" />
-
+<img src="http://www.easydarwin.org/github/images/easyvideorecorder/1.png" width="300" alt="EasyvideoRecorder" />
+<img src="http://www.easydarwin.org/github/images/easyvideorecorder/2.png" width="300" alt="EasyvideoRecorder" />
+<img src="http://www.easydarwin.org/github/images/easyvideorecorder/3.png" width="300" alt="EasyvideoRecorder" />
+<img src="http://www.easydarwin.org/github/images/easyvideorecorder/4.png" width="300" alt="EasyvideoRecorder" />
+<img src="http://www.easydarwin.org/github/images/easyvideorecorder/5.png" width="300" alt="EasyvideoRecorder" />
+<img src="http://www.easydarwin.org/github/images/easyvideorecorder/6.png" width="300" alt="EasyvideoRecorder" />
+<img src="http://www.easydarwin.org/github/images/easyvideorecorder/7.png" width="300" alt="EasyvideoRecorder" />
+<img src="http://www.easydarwin.org/github/images/easyvideorecorder/8.png" width="300" alt="EasyvideoRecorder" />
+<img src="http://www.easydarwin.org/github/images/easyvideorecorder/9.png" width="300" alt="EasyvideoRecorder" />
+<img src="http://www.easydarwin.org/github/images/easyvideorecorder/10.png" width="300" alt="EasyvideoRecorder" />
+<img src="http://www.easydarwin.org/github/images/easyvideorecorder/11.png" width="300" alt="EasyvideoRecorder" />
+<img src="http://www.easydarwin.org/github/images/easyvideorecorder/12.png" width="300" alt="EasyvideoRecorder" />
+<img src="http://www.easydarwin.org/github/images/easyvideorecorder/13.png" width="300" alt="EasyvideoRecorder" />
 
 ## DEMO ##
 
