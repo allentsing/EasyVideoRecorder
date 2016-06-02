@@ -36,7 +36,9 @@ EasyVideoRecorder是EasyDarwin开源团队成员Holo & Carl开发的一款移动
 
 Android:
 
-<img src="http://www.easydarwin.org/skin/easydarwin/images/easyvideorecorder_android.png" width="300"  height="300" alt="EasyVideoRecorder断点拍摄" />
+[<img src="images/android_download_QR.png" width="300"  height="300" alt="EasyVideoRecorder断点拍摄" />
+](http://beta.qq.com/m/mso1)
+
 
 IOS:
 
