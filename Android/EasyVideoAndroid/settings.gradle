@@ -1,0 +1,7 @@
+if (Boolean.valueOf("${dev}")) {
+    include ':EasyVideoCommonLib'
+    include ':EasyVideoRecorderLib'
+    include ':EasyVideoRenderLib'
+}
+include ':EasyVideoDemo'
+

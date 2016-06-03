@@ -1,0 +1,89 @@
+#args
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-optimizationpasses 5
+-dontpreverify
+-verbose
+
+-optimizations !code/simplification/arithmetic,!field/*,!class/merging/*
+
+-keepattributes *Annotation*,EnclosingMethod
+-keepattributes *JavascriptInterface*
+-keepattributes Signature
+-keepattributes Exceptions
+-keepattributes InnerClasses
+-ignorewarnings
+
+-repackageclasses ''
+-allowaccessmodification
+
+
+#keep java
+-keepclassmembers class * implements java.io.Serializable {
+    static final long serialVersionUID;
+    private static final java.io.ObjectStreamField[] serialPersistentFields;
+    private void writeObject(java.io.ObjectOutputStream);
+    private void readObject(java.io.ObjectInputStream);
+    java.lang.Object writeReplace();
+    java.lang.Object readResolve();
+}
+
+#keep android
+-keep public class * extends android.app.Activity
+-keep public class * extends android.support.v4.app.Fragment
+-keep public class * extends android.app.Application
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
+-keep public class * extends android.content.ContentProvider
+-keep public class * extends android.app.backup.BackupAgentHelper
+-keep public class * extends android.preference.Preference
+-keep public class com.google.vending.licensing.ILicensingService
+-keep public class com.android.vending.licensing.ILicensingService
+-keep public class * extends android.os.IInterface
+
+-dontwarn org.w3c.**
+-keep class org.w3c.** {*; }
+
+-dontwarn org.apache.**
+-dontwarn android.webkit.**
+-dontwarn android.net.http.SslError
+
+-keep public class android.net.http.SslError{ *;}
+-keep public class android.webkit.WebViewClient{*;}
+-keep public class android.webkit.WebChromeClient{*;}
+-keep public interface android.webkit.WebChromeClient$CustomViewCallback { *;}
+-keep public interface android.webkit.ValueCallback {*;}
+-keep class * implements android.webkit.WebChromeClient {*;}
+
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+-keepclasseswithmembers class * {
+    native <methods>;
+}
+-keepclasseswithmembers class * {
+    public <init>(android.content.Context,android.util.AttributeSet);
+}
+-keepclasseswithmembers class * {
+    public <init>(android.content.Context,android.util.AttributeSet,int);
+}
+-keep class * implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator *;
+}
+-keepclassmembers class **.R$* {
+    public static <fields>;
+}
+-keepclassmembers class * {
+    @android.webkit.JavascriptInterface <methods>;
+}
+
+#keep android support
+
+-dontnote  android.support.**
+-dontwarn android.support.**
+-keep class android.support.** { *;}
+
+
+-dontwarn com.tencent.bugly.**
+-keep public class com.tencent.bugly.**{*;}

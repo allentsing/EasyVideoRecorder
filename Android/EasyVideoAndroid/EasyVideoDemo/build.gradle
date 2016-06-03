@@ -1,0 +1,56 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "23.0.2"
+
+    aaptOptions.cruncherEnabled = false
+    aaptOptions.useNewCruncher = false
+
+    lintOptions {
+        abortOnError false
+    }
+
+    defaultConfig {
+        applicationId "org.easydarwin.video.demo"
+        minSdkVersion 14
+        targetSdkVersion 22
+        versionCode 6
+        versionName "3.1"
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_7
+            targetCompatibility JavaVersion.VERSION_1_7
+        }
+    }
+
+    buildTypes {
+
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
+        }
+
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
+        }
+    }
+}
+
+dependencies {
+    if (Boolean.valueOf("${dev}")) {
+        compile project(':EasyVideoRecorderLib')
+        compile project(':EasyVideoRenderLib')
+    } else {
+        compile(name: 'EasyVideoRecorderLib-release-1.0.1', ext: 'aar')
+        compile(name: 'EasyVideoRenderLib-release-1.0.1', ext: 'aar')
+        compile(name: 'EasyVideoCommonLib-release-1.0.1', ext: 'aar')
+    }
+
+    //  sdk require for EasyVideoRenderLib
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    compile "com.android.support:support-v4:22.2.1"
+
+    // for demo crash report , not sdk require
+    compile files('libs/bugly_crash_upgrade_1.0.0.jar')
+}

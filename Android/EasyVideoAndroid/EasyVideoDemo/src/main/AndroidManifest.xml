@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.easydarwin.video.demo">
+
+    <!--Tencent bugly  permission-->
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="org.easydarwin.video.demo.App"
+        android:enabled="true"
+        android:icon="@drawable/logo2"
+        android:label="EasyVideo"
+        android:theme="@android:style/Theme.Holo.Light.NoActionBar">
+
+        <!--demo app activity-->
+        <activity
+            android:name="org.easydarwin.video.demo.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.easydarwin.video.demo.StartActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.easydarwin.video.demo.VideoPlayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.easydarwin.video.demo.DownloadFilterActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="org.easydarwin.video.demo.DownloadFilterActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <!--tencent bugly activity  not for SDK-->
+        <activity
+            android:name="com.tencent.bugly.beta.ui.BetaActivity"
+            android:theme="@android:style/Theme.Translucent" />
+
+    </application>
+
+</manifest>
