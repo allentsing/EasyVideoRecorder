@@ -1,6 +1,6 @@
 # EasyVideoRecorder #
 
-EasyVideoRecorder是EasyDarwin开源团队成员Holo & Carl开发的一款移动端短视频拍摄工具库，类似于美拍、秒拍的短视频拍摄功能，支持按住拍、点击拍、滤镜、mv、相框、图片序列合成、照片合成mv(开发中)、视频水印、本地视频导入(开发中)功能，并且功能还在不断扩展中,未来将会有更多diao爆了的功能上线！开源团队成员经过多年技术积累，开发出的拍摄库支持Android、IOS平台，适配性好，比同行业的视频合成技术在：速度，稳定性，丰富性，适配性上都具有一定的技术优势！
+EasyVideoRecorder是EasyDarwin开源团队开发的一款移动端短视频拍摄工具库，类似于美拍、秒拍的短视频拍摄功能，支持按住拍、点击拍、滤镜、mv、相框、图片序列合成、照片合成mv(开发中)、视频水印、本地视频导入(开发中)功能，并且功能还在不断扩展中,未来将会有更多diao爆了的功能上线！开源团队成员经过多年技术积累，开发出的拍摄库支持Android、IOS平台，适配性好，比同行业的视频合成技术在：速度，稳定性，丰富性，适配性上都具有一定的技术优势！
 
 - 拍摄 
 - 断点拍摄
@@ -52,7 +52,7 @@ IOS:
 
 WEB：[www.EasyDarwin.org](http://www.easydarwin.org)
 
-Author：Holo & Carl
+Author：Holo & Carl & Ibrahim
 
 QQ交流群：[201790130](http://jq.qq.com/?_wv=1027&k=2Fz1eP2 "EasyVideoRecorder短视频SDK")
 
